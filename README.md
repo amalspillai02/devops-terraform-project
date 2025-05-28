@@ -264,8 +264,8 @@ curl http://<ec2_public_ip>
 1. **Update Docker Image**:
    ```bash
    # Build and push new image
-   docker build -t prakash2405/myapp:v2 ./app
-   docker push prakash2405/myapp:v2
+   docker build -t amalspillai02/myapp:v2 ./app
+   docker push amalspillai02/myapp:v2
    ```
 
 2. **Update Infrastructure**:
